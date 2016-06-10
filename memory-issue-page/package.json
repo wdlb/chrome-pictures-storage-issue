@@ -1,0 +1,15 @@
+{
+  "name": "simple-picture-page",
+  "version": "1.0.0",
+  "description": "Static page containing a file input field with some related logic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ward.delabastita@tenforce.com",
+  "license": "ISC",
+  "devDependencies": {
+    "connect": "^3.4.1",
+    "serve-static": "^1.11.0"
+  }
+}
