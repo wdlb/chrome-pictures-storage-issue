@@ -43,7 +43,7 @@ public class ReplicationSamsungGalaxyS2 {
         for (int i = 0; i < 1000; i++) {
             System.out.println("Picture number " + count);
             addPictureFromCamera();
-            count ++;
+            count++;
         }
 
     }
@@ -89,7 +89,7 @@ public class ReplicationSamsungGalaxyS2 {
 
     private boolean isCameraPermissionDialogPresent() {
         driver.manage().timeouts().implicitlyWait(0, TimeUnit.MILLISECONDS);
-        boolean isPresent = driver.findElements( By.id("com.android.packageinstaller:id/permission_message") ).size() != 0;
+        boolean isPresent = driver.findElements(By.id("com.android.packageinstaller:id/permission_message")).size() != 0;
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         return isPresent;
     }
