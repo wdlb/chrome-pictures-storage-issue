@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/memory-issue-page/memory-issue-page.iml" filepath="$PROJECT_DIR$/memory-issue-page/memory-issue-page.iml" />
-      <module fileurl="file://$PROJECT_DIR$/memory-issue-reproduction/memory-issue-reproduction.iml" filepath="$PROJECT_DIR$/memory-issue-reproduction/memory-issue-reproduction.iml" />
-    </modules>
-  </component>
-</project>
