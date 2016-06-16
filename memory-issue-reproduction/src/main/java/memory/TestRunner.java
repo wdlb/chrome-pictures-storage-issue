@@ -5,7 +5,7 @@ import memory.devices.MotoG;
 import memory.devices.SamsungGalaxyS2;
 import org.junit.Test;
 
-import static memory.utils.Utils.printCurrentTime;
+import static memory.Utils.printCurrentTime;
 
 /**
  * Created by ward.delabastita on 16/06/2016.

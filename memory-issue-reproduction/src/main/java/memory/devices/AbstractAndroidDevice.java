@@ -21,7 +21,7 @@ import java.net.URL;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
-import static memory.utils.Utils.printCurrentTime;
+import static memory.Utils.printCurrentTime;
 
 /**
  * Created by ward.delabastita on 16/06/2016.

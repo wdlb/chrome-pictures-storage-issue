@@ -1,4 +1,4 @@
-package memory.utils;
+package memory;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -14,4 +14,5 @@ public class Utils {
         Date date = new Date();
         System.out.println(dateFormat.format(date));
     }
+
 }
