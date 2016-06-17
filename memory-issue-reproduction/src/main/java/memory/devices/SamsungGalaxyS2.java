@@ -17,9 +17,13 @@ public class SamsungGalaxyS2 extends AbstractAndroidDevice {
 
     /* default */ void takePicture() {
         WebDriverWait cameraWait = new WebDriverWait(driver, 5);
-        cameraWait.until(ExpectedConditions.visibilityOfElementLocated(By.id("MENUID_SHUTTER")));
-        MobileElement cameraField = (MobileElement) driver.findElement(By.id("MENUID_SHUTTER"));
-        cameraField.click();
+        try {
+            cameraWait.until(ExpectedConditions.visibilityOfElementLocated(By.id("MENUID_SHUTTER")));
+            MobileElement cameraField = (MobileElement) driver.findElement(By.id("MENUID_SHUTTER"));
+            cameraField.click();
+        } catch (TimeoutException tex) {
+            handleNotFoundException();
+        }
         WebDriverWait confirmationWait = new WebDriverWait(driver, 15);
         try {
             confirmationWait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.sec.android.app.camera:id/okay")));
