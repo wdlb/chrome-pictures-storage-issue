@@ -57,3 +57,9 @@ modules.xml
 
 /.idea/*
 target/
+
+### Java ###
+*.class
+
+### Project specific directories/files ###
+screenshots
