@@ -26,7 +26,7 @@ public class TestRunner {
         printCurrentTime();
         device.navigateTo(Configuration.URL_TESTPAGE);
         int count = 1;
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 5000; i++) {
             System.out.println("Picture number " + count);
             device.selectPictureFromCamera();
             count++;
