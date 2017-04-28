@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>groupId</groupId>
-    <artifactId>memory-issue-reproduction</artifactId>
+    <artifactId>storage-issue-reproduction</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
